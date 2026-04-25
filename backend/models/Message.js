@@ -3,6 +3,10 @@ const mongoose = require("mongoose");
 
 const messageSchema = new mongoose.Schema(
   {
+    reactions: [{
+      userId: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
+      emoji: { type: String }
+    }],
     room: {
       type: mongoose.Schema.Types.ObjectId,
       ref: "Room",
