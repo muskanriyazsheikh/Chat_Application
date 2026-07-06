@@ -33,7 +33,7 @@ export default function LoginPage() {
             N
           </div>
           <h1 className="text-3xl font-display font-bold text-gray-900 dark:text-white">
-            Nexus Chat
+            Wee Chat
           </h1>
           <p className="text-gray-500 dark:text-gray-400 mt-1">Sign in to continue</p>
         </div>
